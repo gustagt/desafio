@@ -1,15 +1,15 @@
-// imports
+
 const express = require('express');
 const cors = require('cors');
 const routes = require('./routes/routes');
 
-// instacia o app com express
+
 const app = express();
 
-// libera o cors para todos os ips
+
 app.use(cors());
 
-// anexa as rotas que foram criadas no arquivo rotas
+
 app.use(routes);
 
 // configurações de inicio da aplicação (escolher a porta e fazer algo a mais como mensagens)
