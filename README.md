@@ -5,7 +5,7 @@ Primeiramente instale o node na sua maquina: [Link para o Node.JS](https://nodej
 Recomendavel instalar versão LTS.
 
 ### Back-end
-Na aba code selecione a opção ssh para obter o seguinte link: git@github.com:gustagt/desafio.git<br>
+Na aba code selecione a opção ssh para obter o seguinte link: git@github.com/gustagt/desafio.git<br>
 Em um terminal com o git habilitado (exemplo: git bash) digite o seguinte comando: <br>
 ```git clone git@github.com:gustagt/desafio.git.```<br> <br>
 Utilizando o terminal entre no diretorio 'back-end' e execute o comando ```npm i .``` para instalar as dependencias. (importante ter instalado o node na maquina)<br>
